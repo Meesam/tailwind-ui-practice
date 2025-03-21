@@ -1,11 +1,18 @@
-import ChallangeOne from './frontendmentorchallange/challange1'
+// import ChallangeOne from './frontendmentorchallange/challange1'
 
-function App () {
+import ChallangeTwo from "./frontendmentorchallange/challange2";
+
+function App() {
   return (
-    <div className='h-screen bg-gray-900 justify-center items-center flex'>
+    <>
+      {/*<div className='h-screen bg-gray-900 justify-center items-center flex'>
       <ChallangeOne />
-    </div>
-  )
+    </div>*/}
+      
+        <ChallangeTwo />
+      
+    </>
+  );
 }
 
-export default App
+export default App;
