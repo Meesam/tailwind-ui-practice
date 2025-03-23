@@ -1,4 +1,5 @@
-// import ChallangeOne from './frontendmentorchallange/challange1'
+
+//import ChallangeOne from './frontendmentorchallange/challange1'
 
 import ChallangeTwo from "./frontendmentorchallange/challange2";
 
@@ -8,9 +9,8 @@ function App() {
       {/*<div className='h-screen bg-gray-900 justify-center items-center flex'>
       <ChallangeOne />
     </div>*/}
-      
-        <ChallangeTwo />
-      
+
+      <ChallangeTwo />
     </>
   );
 }

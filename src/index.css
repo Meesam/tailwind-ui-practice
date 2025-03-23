@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+.bullet-on-list{
+  position:relative;
+}
+
+.bullet-on-list::before{
+  content: '';
+  position: absolute;
+  height: 0.4rem;
+  width: 0.4rem;
+  background-color: #7B284F;
+  top:0.5rem;
+  left: -35px;
+  border-radius: 50px;
+}
+
+.number-on-list::before{
+  content: '';
+  position: absolute;
+  top:2px;
+  left: -30px;
+  color: #854632;
+  font-weight: 500;
+  font-size: small;
+}
+
+.number-on-list{
+  position:relative;
+}
+
 
 :root {
   --white-color: hsl(0, 0%, 100%);
